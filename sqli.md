@@ -19,3 +19,5 @@ https://portswigger.net/web-security/sql-injection#what-is-the-impact-of-a-succe
 - `/profile/@username` → `/profile/@username'+OR+1=1--+-`
 - `/organisation/<orgId>` → `/organisation/<orgId>'+OR+1=1--+-`
 - `/application/<appId>` → `/applications/<appId>'+OR+1=1--+-`
+
+## Real-world SQL injection (SQLi) payloads
