@@ -23,6 +23,8 @@ This is the kind of reference you'd want nearby.
 Clone it, copy bits, share it, suggest improvements — whatever.
 If you’ve got a cool tip or resource to add, feel free to open a PR.
 
+### Bugs
+1. [SQL injection (SQLI)](https://github.com/yuzadef/allofbugs/blob/main/sqli.md)
 
 ### Resources
 [6-digits OTP bruteforce wordlist](https://raw.githubusercontent.com/indahud/OTP-Wordlist/master/6_digit_mix.txt)
