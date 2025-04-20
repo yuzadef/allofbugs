@@ -1,4 +1,0 @@
-///evil.com/
-//evil.com
-/%2Fevil.com
-/%2Fevil%252Ecom
