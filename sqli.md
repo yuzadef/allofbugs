@@ -15,9 +15,18 @@ SQL injection attacks have been used in many high-profile data breaches over the
 https://portswigger.net/web-security/sql-injection#what-is-the-impact-of-a-successful-sql-injection-attack
 
 ## SQL injection (SQLi) vulnerable point
-1. Identifiers in URLs
+1. Identifiers in URLs: [1046084](https://hackerone.com/reports/1046084)
 - `/profile/@username` → `/profile/@username'+OR+1=1--+-`
 - `/organisation/<orgId>` → `/organisation/<orgId>'+OR+1=1--+-`
 - `/application/<appId>` → `/applications/<appId>'+OR+1=1--+-`
 
+2. SQL injection in a WordPress plugin called Formidable Pro: [273946](https://hackerone.com/reports/273946)
+
 ## Real-world SQL injection (SQLi) payloads
+```
+%20union%20select%201,2,@@VERSION%23
+```
+
+### SQLMap & Ghauri commands
+
+
