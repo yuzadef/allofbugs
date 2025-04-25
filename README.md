@@ -25,6 +25,7 @@ If you’ve got a cool tip or resource to add, feel free to open a PR.
 
 ### Bugs
 1. [SQL injection (SQLI)](https://github.com/yuzadef/allofbugs/blob/main/sqli.md)
+2. [Information disclosure](https://github.com/yuzadef/allofbugs/blob/main/information-disclosure.md)
 
 ### General testing checklist
 1. [Web Application Testing Checklist](https://github.com/yuzadef/allofbugs/blob/main/checklist.md)
