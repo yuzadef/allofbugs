@@ -32,3 +32,4 @@ If you’ve got a cool tip or resource to add, feel free to open a PR.
 
 ### Resources
 [6-digits OTP bruteforce wordlist](https://raw.githubusercontent.com/indahud/OTP-Wordlist/master/6_digit_mix.txt)
+[Custom HTTP Headers](https://gist.githubusercontent.com/kaimi-/6b3c99538dce9e3d29ad647b325007c1/raw/921b0dd64e01c31106ece6087a3582e2d6fc6bc2/gistfile1.txt)
