@@ -34,3 +34,10 @@ If you’ve got a cool tip or resource to add, feel free to open a PR.
 [6-digits OTP bruteforce wordlist](https://raw.githubusercontent.com/indahud/OTP-Wordlist/master/6_digit_mix.txt)
 [Custom HTTP Headers](https://gist.githubusercontent.com/kaimi-/6b3c99538dce9e3d29ad647b325007c1/raw/921b0dd64e01c31106ece6087a3582e2d6fc6bc2/gistfile1.txt)
 [Rate limit bypass techniques](https://medium.com/@raxomara/bypassing-rate-limits-all-known-techniques-25891bb5ca59)
+
+**Using Authorize**
+1. Configuration tab, add lower privilege users cookie in the temporary header section.
+2. Interceptions filters, add in-scope items only.
+3. Browse the app using higher privilege user.
+4. Check for bypassed!
+5. Verify manually.
