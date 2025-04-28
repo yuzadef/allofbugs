@@ -17,3 +17,10 @@
 - [ ] the only admin in an organization demotes himself to 'member' role. What will happen to the organization? Will a new admin gets automatically assigned to any of the limited users in the organization?
 - [ ] promote or demote other user roles on behalf of admin.
 - [ ] promote or demote your own account to other user roles.
+
+## password reset
+- [ ] receive password reset link of other users via HPP (duplicate parameters)
+- [ ] reuse password reset link
+- [ ] password reset link leaked in 3rd party application referer header
+- [ ] password reset link poisoning via host header injection
+- [ ] 
