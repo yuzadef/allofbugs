@@ -28,7 +28,7 @@ If you’ve got a cool tip or resource to add, feel free to open a PR.
 2. [Information disclosure](https://github.com/yuzadef/allofbugs/blob/main/information-disclosure.md)
 
 ### General testing checklist
-1. [Web Application Testing Checklist](https://github.com/yuzadef/allofbugs/blob/main/checklist.md)
+- [Web Application Testing Checklist](https://github.com/yuzadef/allofbugs/blob/main/checklist.md)
 
 ### Resources
 - [6-digits OTP bruteforce wordlist](https://raw.githubusercontent.com/indahud/OTP-Wordlist/master/6_digit_mix.txt)
