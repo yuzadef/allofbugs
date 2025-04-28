@@ -1,4 +1,4 @@
-# Web Application Testing Checklist
+# Web Application Testing By Features
 
 ## Registration
 - [ ] userA use userB verification link for verification. Do the verifications need to happen in their respective browser session?
