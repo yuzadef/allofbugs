@@ -1,3 +1,9 @@
+# allofbugs
+
+*cc: yuzadef@gmail.com*
+
+*bugcrowd: https://bugcrowd.com/yuza101*
+
 ### bugs
 - [cross-site scripting (xss)](https://github.com/yuzadef/allofbugs/blob/main/xss.md)
 - [information disclosure](https://github.com/yuzadef/allofbugs/blob/main/information-disclosure.md)
@@ -12,9 +18,15 @@
 - [sqli advanced concept](https://johnermac.github.io/notes/ewptx/sqli/)
 
 ### tips
-**using authorize**
-1. configuration tab, add lower privilege users cookie in the temporary header section.
-2. interceptions filters, add in-scope items only.
-3. browse the app using higher privilege user.
-4. check for bypassed!
-5. verify manually.
+<details>
+  <summary>Using authorize</summary>
+  
+- configuration tab, add lower privilege users cookie in the temporary header section.
+  
+- interceptions filters, add in-scope items only.
+  
+- browse the app using higher privilege user.
+- check for bypassed!
+  
+- verify manually.
+</details>
