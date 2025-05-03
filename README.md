@@ -16,6 +16,7 @@
 - [custom http headers](https://gist.githubusercontent.com/kaimi-/6b3c99538dce9e3d29ad647b325007c1/raw/921b0dd64e01c31106ece6087a3582e2d6fc6bc2/gistfile1.txt)
 - [rate limit bypass techniques](https://medium.com/@raxomara/bypassing-rate-limits-all-known-techniques-25891bb5ca59)
 - [sqli advanced concept](https://johnermac.github.io/notes/ewptx/sqli/)
+- [cyber swiss army knife](https://gchq.github.io/CyberChef/)
 
 ### tips
 <details>
