@@ -20,14 +20,43 @@
 
 ### tips
 <details>
-  <summary>Using authorize</summary>
+  <summary>using authorize</summary>
   
-- configuration tab, add lower privilege users cookie in the temporary header section.
+1. configuration tab, add lower privilege users cookie in the temporary header section.
   
-- interceptions filters, add in-scope items only.
+2. interceptions filters, add in-scope items only.
   
-- browse the app using higher privilege user.
-- check for bypassed!
+3. browse the app using higher privilege user.
+
+4. check for bypassed!
   
-- verify manually.
+5. verify manually.
+</details>
+
+<details>
+  <summary>wildcard target & xss</summary>
+
+1. subfinder -dL domain.txt -o sub1.txt
+
+2. cat domain.txt | assetfinder --subs-only | tee -a sub2.txt
+
+3. cat sub1.txt sub2.txt > subdomains.txt
+
+4. cat subdomains.txt | anew >> final_subs.txt
+
+5. cat final_subs.txt | httpx -o alive_subs.txt
+
+6. cat alive_subs.txt | waybackurls >> urls1.txt
+
+7. cat alive_subs.txt | gau >> urls2.txt
+
+8. katana -list alive_subs.txt -o urls3.txt
+
+9. cat urls1.txt urls2.txt urls3.txt >> all_urls.txt
+
+10. cat all_urls.txt | uro >> final_urls.txt
+
+11. cat final_urls.txt | gf xss >> xss.txt
+
+12. cat xss.txt | kxss
 </details>
