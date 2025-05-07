@@ -23,4 +23,3 @@
 - [ ] reuse password reset link
 - [ ] password reset link leaked in 3rd party application referer header
 - [ ] password reset link poisoning via host header injection
-- [ ] 
