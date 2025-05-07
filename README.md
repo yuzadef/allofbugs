@@ -5,8 +5,8 @@
 *bugcrowd: https://bugcrowd.com/yuza101*
 
 ### bugs
-- [cross-site scripting (xss)](https://github.com/yuzadef/allofbugs/blob/main/xss.md)
-- [information disclosure](https://github.com/yuzadef/allofbugs/blob/main/information-disclosure.md)
+- [cross-site scripting (xss)](https://github.com/yuzadef/allofbugs/blob/main/bugs/xss.md)
+- [information disclosure](https://github.com/yuzadef/allofbugs/blob/main/bugs/information-disclosure.md)
 
 ### resources
 - [6-digits otp bruteforce wordlist](https://raw.githubusercontent.com/indahud/otp-wordlist/master/6_digit_mix.txt)
@@ -15,7 +15,7 @@
 - [sqli advanced concept](https://johnermac.github.io/notes/ewptx/sqli/)
 - [cyber swiss army knife](https://gchq.github.io/CyberChef/)
 
-### tips
+### [tips & tricks](https://github.com/yuzadef/allofbugs/blob/main/tips%26tricks.md)
 <details>
   <summary>using authorize</summary>
   
