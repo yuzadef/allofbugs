@@ -8,9 +8,6 @@
 - [cross-site scripting (xss)](https://github.com/yuzadef/allofbugs/blob/main/xss.md)
 - [information disclosure](https://github.com/yuzadef/allofbugs/blob/main/information-disclosure.md)
 
-### checklist
-- [web application testing checklist](https://github.com/yuzadef/allofbugs/blob/main/checklist.md)
-
 ### resources
 - [6-digits otp bruteforce wordlist](https://raw.githubusercontent.com/indahud/otp-wordlist/master/6_digit_mix.txt)
 - [custom http headers](https://gist.githubusercontent.com/kaimi-/6b3c99538dce9e3d29ad647b325007c1/raw/921b0dd64e01c31106ece6087a3582e2d6fc6bc2/gistfile1.txt)
