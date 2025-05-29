@@ -1,3 +1,4 @@
 # business logic flaw
 
 1. **bypass email confirmation for ATO via race condition** -- attacker update his account to victim's email; need to confirm the email sent to victim to achieve ATO; race condition confuses the application and send the confirmation link to both attacker and victim; allows attacker to achieve the ATO with zero-click.
+2. **bypass user invite limit via race condition** -- application restricts each workspace to only have 5 members invited; attacker can invite more than 5 members via race condition which confuses the application with how to handle the multiple requests sent at the same time; ultimately allows attacker to bypass the restriction.
